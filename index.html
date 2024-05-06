@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/Style.css">
+    <script src="js/jquery.min.js"></script>
+    <title>Home page</title>
+    <script>
+        $(document).ready(function(){
+            $('#lightmode').click(function(){
+                $("body,header").css({
+                                "background":"white"
+                });
+            })
+        });
+        $(document).ready(function(){
+            $('#darkmode').click(function(){
+                $("body,header").css({
+                                "background":"black"    
+                });
+            })
+        });
+    </script>
+</head>
+
+<body>
+    <header>
+        <a href="index.html" class="logo">Maktabty</a>
+        <nav class="mode">
+            <button id="lightmode" title="light mode">🌞</button>
+            <button id="darkmode" title="dark mode">🌛</button>
+        </nav>
+        <nav class="navigation">
+            <a href="index.html">Home page</a>
+            <a href="#Sections">Sections</a>
+            <a href="#Contact">Contact</a>
+            <a href="Login form.index.html">Login</a>
+        </nav>
+    </header>
+    <section class="container">
+
+        <div class="login-user-icon">
+
+            <img src="images/photo_2024-04-15_22-08-22.jpg"
+                style="height: 95px; width: 185px; border-radius: 55%; position: relative; top: -60px;  left: -90px; ">
+        </div>
+        <div class="search-box">
+            <input type="text" class="input" placeholder=" ...ابحث" name="search">
+            <button type="submit">search</button>
+        </div>
+    </section>
+
+    <section class="Sections" id="Sections">
+        <h2 class="title">Sections</h2>
+        <div class="content">
+            <div class="Section-card">
+                <div class="Section-image">
+                    <a href="Biography.html"><img src="images/سيرة.png"></a>
+                </div>
+
+
+            </div>
+            <div class="Section-card">
+                <div class="Section-image">
+                    <a href="Slide1.index.html"><img src="images/اقتصاد.png"></a>
+                </div>
+
+
+            </div>
+            <div class="Section-card">
+                <div class="Section-image">
+                    <a href="psychology 1.html"><img src="images/3lmnfs.png"></a>
+                </div>
+
+
+            </div>
+            <div class="Section-card">
+                <div class="Section-image">
+                    <img src="images/1-91.png">
+                </div>
+
+
+            </div>
+            <div class="Section-card">
+                <div class="Section-image">
+                    <img src="images/1-71.png">
+                </div>
+
+
+            </div>
+            <div class="Section-card">
+                <div class="Section-image">
+                    <img src="images/1-31.png">
+                </div>
+
+            </div>
+            <div class="Section-card">
+                <div class="Section-image">
+                    <img src="images/Msrhyat.png">
+                </div>
+
+
+            </div>
+
+    </section>
+
+    <footer class="footer" id="Contact">
+        <nav>
+            <p class="footer-title">Created by <span>#Shaban #Ali #Sama #Raghad #Asmaa #Ahmed #Juliana</span></p>
+        </nav>
+        <P class="contact-email">Maktabty555@gmail.com</P>
+    </footer>
+</body>
+
+</html>

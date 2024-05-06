@@ -1,0 +1,116 @@
+* {
+  font-family: 'poppons', sans-serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: #f0f0f0;
+  width: 100%;
+  z-index: 999S;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 35px;
+}
+
+.logo {
+  text-decoration: none;
+  color: #872323;
+  font-weight: 800;
+  font-size: 1.8em;
+}
+
+.navigation a {
+  text-decoration: none;
+  color: #872323;
+  font-size: 1.5em;
+  font-weight: 500;
+  padding-left: 30px;
+}
+
+.navigation a:hover {
+  color: rgb(201, 130, 122);
+}
+
+h1 {
+  text-align: right;
+  font-size: 70px;
+}
+
+button {
+  background: #872323;
+  color: white;
+  font-size: 17px;
+  border: 1px solid rgb(18, 11, 11);
+  cursor: pointer;
+  text-align: center;
+  border-radius: 70cm;
+}
+
+button {
+  float: right;
+  width: 100px;
+  padding: 10px;
+}
+
+button:hover {
+  background-color: rgb(201, 130, 122);
+  color: white;
+}
+
+h2 {
+  font-size: 25px;
+}
+
+.container {
+  width: 1180px;
+  padding: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  display: grid;
+  justify-content: center;
+  grid-template-columns: repeat(auto-fill, minmax(277px, auto));
+  gap: 15px;
+
+}
+
+.book {
+  background-color: white;
+  border-radius: 20px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+
+}
+
+.book img {
+  width: 100%;
+  height: 100%;
+}
+
+.book img:hover {
+  cursor: pointer;
+  opacity: 0.9;
+}
+
+.box img {
+  width: 300px;
+  margin-top: 20px;
+  margin-left: 600px;
+
+}
+
+.box img:hover {
+  cursor: pointer;
+  opacity: 0.9;
+}
+
+p {
+  font-size: 35px;
+  margin-right: 200px;
+  margin-top: 50px;
+}
